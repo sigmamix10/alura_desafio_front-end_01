@@ -1,0 +1,40 @@
+.caixa-formacao{
+   padding: 2rem 0 2rem 0;
+}
+
+.card-group-formacao{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: 2rem 0 2rem 0;
+}
+
+.card-formacao{
+   width: 18.75rem;     
+   padding: 1.125rem;   
+}
+
+.card-formacao-img{    
+   background: #fff;   
+   height: 9.375rem;   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px 10px 0;   
+}
+
+.img-formacao{
+   width: 75%;
+}
+
+.card-formacao-titulo{
+   font-size: 18px;
+   font-weight: 500;
+   padding: 10px 0 5px 0;
+}
+
+.card-formacao-descricao{
+   border-bottom: 2px solid #c2c2c2;
+}
+

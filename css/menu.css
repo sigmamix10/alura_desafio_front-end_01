@@ -1,0 +1,46 @@
+.cabecalho{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 0 15px 0;
+   border-bottom: solid 1;
+}
+
+.logo{
+   font-size: 18px;
+   width: 40%;
+   font-weight: 700;      
+}
+
+.logo a{
+   text-decoration: none;
+   color: #000;
+   transition: 0.3s;
+}
+
+.logo a:hover{
+   color: #595959;
+}
+
+.nav{
+   display: flex;
+   justify-content: space-around;
+   width: 60%;
+}
+
+.nav-link{
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #000;   
+   transition: 0.3s;
+}
+
+.email-link{
+   text-transform: none;
+}
+
+.nav-link:hover{
+   color: #595959;
+   background: #c2c2c2;
+   padding: 5px;
+   border-radius: 10px;
+}

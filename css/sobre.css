@@ -1,0 +1,16 @@
+.caixa-sbore{
+   padding: 40px 0 40px 0;   
+}
+
+.titulo-sobre{
+   padding: 0 0 15px 0;
+}
+
+.sobre-texto{
+   padding: 10px 0 10px 0;
+   font-size: 16px;
+   font-weight: 400;
+   width: 75%;
+   text-align: justify;
+   line-height: 25px
+}

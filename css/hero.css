@@ -1,0 +1,46 @@
+.heros{
+   padding: 40px 0 40px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.heros-lado-esquerdo{   
+   padding-right: 30px;
+}
+
+.titulo-heros{
+   font-size: 52px;
+   font-weight: 700;
+   padding: 15px 15px 15px 0;
+}
+
+.texto-heros{
+   padding: 15px 0 15px 0;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.redes-nav{
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.redes-nav-link{
+   text-decoration: none;
+   color: #0026EB;
+   transition: 0.3s;
+}
+
+.redes-nav-link:hover{
+   color: #05177A;
+   font-weight: 700;
+}
+
+.heros-img{
+   width: 350px;
+   height: 350px;
+   border-radius: 100%;
+   margin-right: 0;
+}

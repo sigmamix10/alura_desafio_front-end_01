@@ -1,0 +1,29 @@
+.caixa-skills{
+   padding: 2rem 0 2rem 0;
+}
+
+.lista-skills{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 3rem 0 3rem 0;
+   justify-content: space-between;   
+}
+
+.lista-skills-itens{
+   width: 7.5rem;
+   height: 7.5rem;
+   background: #fff;
+   padding: 1.25rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   border-radius: 10px;
+   font-size: 1.125rem;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.lista-skills-itens:hover{
+   background: #c6c6c6;
+   border: 1px solid #2A7AE4;   
+}

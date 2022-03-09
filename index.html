@@ -3,169 +3,171 @@
 <head>
    <meta charset="UTF-8">   
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
+   
+   <link href="./css/normalize.css" rel="stylesheet" />
+   <link href="./css/reset.css" rel="stylesheet" />
+   <link rel="stylesheet" href="./css/style.css">
+   
+   <!--Menu ou Navegacao-->
+   <link rel="stylesheet" href="./css/menu.css">
+   <!--Heros-->
+   <link rel="stylesheet" href="./css/hero.css">
+   <!--Sobre-->
+   <link rel="stylesheet" href="./css/sobre.css">
+   <!--Skills e Formacao-->   
+   <link rel="stylesheet" href="./css/skills.css">
+   <link rel="stylesheet" href="./css/formacao.css">
+   <!--Rodape-->   
+   <link rel="stylesheet" href="./css/rodape.css">
+
+   <!--Fontes do Googles-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
    <title>Rogerio Alves</title>
 </head>
 <body>
 
    <!--CABEÇALHO DO SITE-->
    <header class="container">      
-         <div class="caixa">
-            <div class="cabecalho">
-               <h1><a href="index.html">Rogerio Alves</a></h1>
-            </div>
-            <div class="nav">
-               <nav>
-                  <ul>
-                     <li><a href="#sobre">sobre</a></li>
-                     <li><a href="#skills">skills</a></li>
-                     <li><a href="#hobbies">hobbies</a></li>
-                     <li><a href="#formacao">formação</a></li>
-                     <li><a href="#">projetos</a></li>
-                     <li><a href="mailto: sigmamix10@gmail.com"><strong>sigmamix10@gmail.com</strong></a></li>
-                  </ul>
-               </nav>  
-            </div>              
-         </div>         
+      <div class="cabecalho">
+         <h1 class="logo"><a href="index.html">Rogerio Alves</a></h1>
+         <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#sobre">sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hobbies">hobbies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#formacao">formação</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">projetos</a></li>
+            <li class="nav-item"><a class="nav-link email-link" href="mailto: sigmamix10@gmail.com"><strong>sigmamix10@gmail.com</strong></a></li>
+         </ul>                           
+      </div>         
    </header>
-
    <!--CONTEUDO HERO-->   
-      <div class="container">
-         <div class="heros">
-            <div class="lado-esquero">
-               <h2 class="titulo-heros">Olá, meu nome é Rogério Alves e construo páginas web</h2>
-               <p class="texto-heros">Eu sou formado no Ensino Médio Regular e atualmente estou participando no projeto Oracle ONE na Alura. Além disso, possuo conhecimento e prática em algumas programações Web</p>
-               <nav class="redes-link">
-                  <ul>
-                     <li><a href="https://github.com/sigmamix10" target="_blank">Github &#129125;</a></li>
-                     <li><a href="https://www.linkedin.com/in/rogerioalvez/" target="_blank">Linkedin &#129125;</a></li>
-                     <li><a href="https://www.instagram.com/sigmamix10/" target="_blank">Instagram &#129125;</a></li>
-                     <li><a href="#">Curriculo &#129125;</a></li>
-                  </ul>
-               </nav>
-            </div>
-            <div>
-               <img class="imag-rounded" src="imagens/DSCN7802.JPG" width="200px">
-            </div>
-         </div>
-      </div>   
+   <div class="container">
+      <div class="heros">            
+      <div class="heros-lado-esquerdo">
+         <h2 class="titulo-heros">Olá, meu nome é Rogério Alves e construo páginas web</h2>
+         <p class="texto-heros">Eu sou formado no Ensino Médio Regular e atualmente estou participando no projeto Oracle ONE na Alura. Além disso, possuo conhecimento e prática em algumas programações Web</p>
+         <nav>
+            <ul class="redes-nav">
+            <li class="redes-nav-item"><a class="redes-nav-link" href="https://github.com/sigmamix10" target="_blank">Github &#129125;</a></li>
+            <li class="redes-nav-item"><a class="redes-nav-link" href="https://www.linkedin.com/in/rogerioalvez/" target="_blank">Linkedin &#129125;</a></li>
+            <li class="redes-nav-item"><a class="redes-nav-link" href="https://www.instagram.com/sigmamix10/" target="_blank">Instagram &#129125;</a></li>
+            <li class="redes-nav-item"><a class="redes-nav-link" href="#">Curriculo &#129125;</a></li>
+            </ul>
+         </nav>    
+      </div>
+      <div class="heros-lado-direito">
+         <img class="heros-img" src="./imagens/DSCN7802.JPG">
+      </div>                   
+      </div>
+   </div>   
 
    <!--CONTEUDO DO SITE-->
    <main>
-      <div class="bg-azulClaro" id="sobre">
-         <div class="container">
-            <div class="caixa-sbore">
-               <h2 class="titulo-sobre">Sobre mim</h2>
-               <p>Meu nome é Rogério Alves. Tenho 32 anos e sou brasileiro. Nasci em uma cidade chamada Codó, no interior do Maranhão. Morei uma parte da minha infância em Imperatriz, também no Maranhão. Aos 21 anos fui morar, a trabalho, em Jacobina, uma cidade do interior da Bahia localizada na Chapada Diamantina.</p>
-               <p>Na área profissional comecei aos 19 anos. Estagei por 10 meses em uma empresa de capacitação profissional. Na mesma empresa, logo depois, assumi o cargo de instrutor de cursos livres. Em 2011 fui transferido para a Bahia para exercer o mesmo cargo. Além de instrutor, também exerci outras funções como: Designer Gráfico, Assistente de Logística, Desenvolvedor Web, entre outros.</p>
-            </div>
+      <div class="bg-azul">
+         <div class="container caixa-sbore">
+            <h2 class="titulo-sobre">Sobre mim</h2>
+            <p class="sobre-texto">Meu nome é Rogério Alves. Tenho 32 anos e sou brasileiro. Nasci em uma cidade chamada Codó, no interior do Maranhão. Morei uma parte da minha infância em Imperatriz, também no Maranhão. Aos 21 anos fui morar, a trabalho, em Jacobina, uma cidade do interior da Bahia localizada na Chapada Diamantina.</p>
+            <p class="sobre-texto">Na área profissional comecei aos 19 anos. Estagei por 10 meses em uma empresa de capacitação profissional. Na mesma empresa, logo depois, assumi o cargo de instrutor de cursos livres. Em 2011 fui transferido para a Bahia para exercer o mesmo cargo. Além de instrutor, também exerci outras funções como: Designer Gráfico, Assistente de Logística, Desenvolvedor Web, entre outros.</p>
          </div>
       </div>
-      <div class="container" id="skills">
-         <div class="caixa-skills">
-            <h2 class="center">Skills</h2>
-            <ul class="lista-skills">
-               <li class="itens"><i class="fab fa-html5" style="font-size: 24px; color: #2A7AE4;"></i> HTML 5</li>
-               <li class="itens"><i class="fab fa-js-square" style="font-size: 24px; color: #2A7AE4;"></i> JavaScript</li>
-               <li class="itens"><i class="fab fa-php" style="font-size: 24px; color: #2A7AE4;"></i> PHP</li>
-               <li class="itens"><i class="fab fa-node" style="font-size: 24px; color: #2A7AE4;"></i> Node JS</li>
-               <li class="itens"><i class="fab fa-react" style="font-size: 24px; color: #2A7AE4;"></i> React</li>
-               <li class="itens"><i class="fas fa-file-code" style="font-size: 24px; color: #2A7AE4;"></i> CSS</li>
-            </ul>
-         </div>
-      </div>
-      <div class="container" id="hobbies">
-         <div class="caixa-skills">
-            <h2 class="center">Hobbies</h2>
-            <ul class="lista-skills">
-               <li class="itens"><i class="fas fa-users" style="font-size: 24px; color: #2A7AE4;"></i> Curtir a familia</li>
-               <li class="itens"><i class="fas fa-tv" style="font-size: 24px; color: #2A7AE4;"></i> Assistir TV</li>
-               <li class="itens"><i class="fas fa-school" style="font-size: 24px; color: #2A7AE4;"></i> Aprender coisas novas</li>
-               <li class="itens"><i class="fas fa-headphones" style="font-size: 24px; color: #2A7AE4;"></i> Ouvir música</li>
-               <li class="itens"><i class="fas fa-gamepad" style="font-size: 24px; color: #2A7AE4;"></i> Jogar Videogame</li>
-               <li class="itens"><i class="fas fa-plane" style="font-size: 24px; color: #2A7AE4;"></i> Viajar</li>
-            </ul>
-         </div>
-      </div>
-      <div class="bg-azulClaro" id="formacao">
-         <div class="container">
-            <div class="caixa-formacao">
-               <h2 class="center">Formação acadêmica</h2>
-               <ul class="lista-formacao">
-                  <li>
-                     <img src="imagens/logo_alura.png" style="margin: auto;">
-                     <h4 class="bold">Iniciante em Programação - ONE</h4>
+      <div class="container caixa-skills">
+         <h2 class="center">Skills</h2>
+         <ul class="lista-skills">
+            <li class="lista-skills-itens"><i class="fab fa-html5" style="font-size: 24px; color: #2A7AE4;"></i> HTML 5</li>
+            <li class="lista-skills-itens"><i class="fab fa-js-square" style="font-size: 24px; color: #2A7AE4;"></i> JavaScript</li>
+            <li class="lista-skills-itens"><i class="fab fa-php" style="font-size: 24px; color: #2A7AE4;"></i> PHP</li>
+            <li class="lista-skills-itens"><i class="fab fa-node" style="font-size: 24px; color: #2A7AE4;"></i> Node JS</li>
+            <li class="lista-skills-itens"><i class="fab fa-react" style="font-size: 24px; color: #2A7AE4;"></i> React</li>
+            <li class="lista-skills-itens"><i class="fas fa-file-code" style="font-size: 24px; color: #2A7AE4;"></i> CSS</li>
+         </ul>
+      </div>      
+      <div class="container caixa-skills">
+         <h2 class="center">Hobbies</h2>
+         <ul class="lista-skills">
+            <li class="lista-skills-itens"><i class="fas fa-users" style="font-size: 24px; color: #2A7AE4;"></i> Curtir a familia</li>
+            <li class="lista-skills-itens"><i class="fas fa-tv" style="font-size: 24px; color: #2A7AE4;"></i> Assistir TV</li>
+            <li class="lista-skills-itens"><i class="fas fa-school" style="font-size: 24px; color: #2A7AE4;"></i> Aprender coisas novas</li>
+            <li class="lista-skills-itens"><i class="fas fa-headphones" style="font-size: 24px; color: #2A7AE4;"></i> Ouvir música</li>
+            <li class="lista-skills-itens"><i class="fas fa-gamepad" style="font-size: 24px; color: #2A7AE4;"></i> Jogar Videogame</li>
+            <li class="lista-skills-itens"><i class="fas fa-plane" style="font-size: 24px; color: #2A7AE4;"></i> Viajar</li>
+         </ul>
+      </div>  
+      <div class="bg-azul">
+         <div class="container caixa-formacao">
+            <h2 class="center">Formação acadêmica</h2>
+            <div class="card-group-formacao">
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_alura.png" class="img-formacao">
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Iniciante em Programação - ONE</h4>
                      <p>2022 - Alura</p>
-                  </li>
-                  <li>
-                     <img src="imagens/logo_alura.png" style="margin: auto;">
-                     <h4 class="bold">Desenvolvimento Pessoal - ONE</h4>
-                     <p>2022 - Alura</p>
-                  </li>
-                  <li>
-                     <img src="imagens/logo_alura.png" style="margin: auto;">
-                     <h4 class="bold">Front-end - ONE</h4>
-                     <p>Em andamento - Alura</p>
-                  </li>                  
-               </ul>
-
-               <ul class="lista-formacao">
-                  <li>
-                     <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                     <h4 class="bold">Bootstrap</h4>
-                     <p>2021 - Workover Academy</p>
-                  </li>
-                  <li>
-                     <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                     <h4 class="bold">Materialize CSS</h4>
-                     <p>2021 - Workover Academy</p>
-                  </li>
-                  <li>
-                     <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                     <h4 class="bold">Inglês Intermediário</h4>
-                     <p>2021 - Workover Academy</p>
-                  </li>                  
-               </ul>
-               
-               <!--MODAL-->
-               <div class="center" style="padding: 15px 0 15px 0;"><a href="#abrirModal" class="botao-modal">Mais formações</a></div>
-
-               <div id="abrirModal" class="modal">
-                  <div>
-                     <a href="#fechar" title="Fechar" class="fechar">x</a>
-                     <h2>Mais cursos</h2>
-                     <ul class="lista-formacao">
-                        <li>
-                           <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                           <h4 class="bold">Bootstrap</h4>
-                           <p>2021 - Workover Academy</p>
-                        </li>
-                        <li>
-                           <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                           <h4 class="bold">Materialize CSS</h4>
-                           <p>2021 - Workover Academy</p>
-                        </li>
-                        <li>
-                           <img src="imagens/logo_workover.png" style="margin: auto; width: 250px;">
-                           <h4 class="bold">Inglês Intermediário</h4>
-                           <p>2021 - Workover Academy</p>
-                        </li>                  
-                     </ul>
                   </div>
                </div>
-            </div>
-         </div>
-      </div>
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_alura.png" class="img-formacao">
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Desenvolvimento Pessoal - ONE</h4>
+                     <p>2022 - Alura</p>
+                  </div>
+               </div>
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_alura.png" class="img-formacao">
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Front-end - ONE</h4>
+                     <p>Em andamento - Alura</p>
+                  </div>
+               </div>
 
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_workover.png" class="img-formacao">      
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Bootstrap</h4>
+                     <p>2021 - Workover Academy</p>
+                  </div>
+               </div>
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_workover.png" class="img-formacao">      
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Materialize CSS</h4>
+                     <p>2021 - Workover Academy</p>
+                  </div>
+               </div>
+               <div class="card-formacao">
+                  <div class="card-formacao-img">
+                     <img src="imagens/logo_workover.png" class="img-formacao">      
+                  </div>
+                  <div class="card-formacao-descricao">
+                     <h4 class="card-formacao-titulo">Inglês Intermediário</h4>
+                     <p>2021 - Workover Academy</p>
+                  </div>
+               </div>
+            </div>             
+         </div>
+      </div> 
+
+      <!--Experiencias-->
+      <div class="container">
+         <h2>Experiências</h2>
+      </div>
    </main>
 
    <!--RODAPE DO SITE-->
    <footer class="rodape">
       <p>Desenvolvido por Rogério Alves</p>
+      <p>2022</p>
    </footer>
 
    <!--FONT AWESOME-->
