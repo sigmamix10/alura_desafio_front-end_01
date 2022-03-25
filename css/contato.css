@@ -1,0 +1,38 @@
+.contato{
+   display: flex;
+   margin: 15px auto;
+   justify-content: center;
+}
+
+.contato-img{
+   padding: 30px 0;
+}
+
+.contato-img-phone{
+   width: 320px;
+   border-radius: 30px;
+}
+
+.formulario{
+   padding: 30px 0;
+   margin-left: 30px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   padding: 15px 0;      
+}
+
+.campo-nome, .campo-email, .campo-assunto, .campo-mensagem{
+   width: 500px;
+   margin-bottom: 10px;
+   padding: 10px 5px;
+   border: none;
+   border-radius: 5px;
+   color: #000;
+}
+
+.t-p-01{
+   width: 15%;
+}

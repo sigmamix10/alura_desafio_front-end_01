@@ -1,0 +1,30 @@
+.caixa-experiencia{
+   padding: 30px 0;
+}
+
+.experiencia-01{
+   display: flex;   
+   justify-content: center;
+}
+
+.experiencia-01-direita{
+   padding: 30px;
+}
+
+.experiencia-01-esquerda{
+   align-self: center;
+}
+
+.experiencia-01-esquerda h2, p, span{
+   margin: 5px 0 0 0;
+}
+
+.experiencia-01-esquerda p{
+   margin: 0 0 15px 0;
+}
+
+.experiencia-img{
+   width: 500px;
+   border-radius: 25px;
+}
+

@@ -10,7 +10,7 @@
 }
 
 .titulo-heros{
-   font-size: 52px;
+   font-size: 45px;
    font-weight: 700;
    padding: 15px 15px 15px 0;
 }
@@ -28,19 +28,45 @@
 }
 
 .redes-nav-link{
-   text-decoration: none;
-   color: #0026EB;
+   font-weight: 700;
+   text-decoration: none; 
+   color: #000;  
    transition: 0.3s;
 }
 
-.redes-nav-link:hover{
-   color: #05177A;
-   font-weight: 700;
+.redes-nav-link:hover{   
+   color: #FF8C00;   
 }
 
 .heros-img{
-   width: 350px;
-   height: 350px;
-   border-radius: 100%;
+   width: 250px;  
+   border-radius: 50%;
    margin-right: 0;
+}
+
+@media screen and (max-width: 375px){
+   .heros{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      padding: 5px 0;
+   }
+   
+   .titulo-heros{
+      font-size: 20px;
+      align-self: stretch;
+   }
+
+   .texto-heros{
+      font-size: 14px;
+      text-align: justify;
+      padding: 5px 0;
+   }
+
+   .redes-nav{
+      padding: 5px 5px;
+      width: 100%;
+      font-size: 14px;
+   }
+   
 }

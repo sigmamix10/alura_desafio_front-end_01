@@ -14,3 +14,15 @@
    text-align: justify;
    line-height: 25px
 }
+
+@media screen and (max-width: 375px){
+   .caixa-sbore{
+      padding: 15px 0;
+   }
+
+   .sobre-texto{
+      width: 100%;
+      text-align: justify;
+      font-size: 14px;
+   }
+}

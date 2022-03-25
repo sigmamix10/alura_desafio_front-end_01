@@ -3,12 +3,7 @@ html{
 }
 
 body{
-	font-family: Raleway, sans-serif;
-   background: #F5F5F5;
-}
-
-header{  
-   padding: 20px;   
+	font-family: Raleway, sans-serif;   
 }
 
 h1, h2{
@@ -21,11 +16,60 @@ h1, h2{
    margin: auto;
 }
 
-.bg-azul{
-   background: #EAF2FD;
-}
-
 .center{
    text-align: center;
 }
 
+.bg-azul{
+   background: #EAF2FD;
+}
+
+.cor-primaria{
+  background: #FF8C00;
+}
+
+.cor-secundaria{
+   background: #000;
+   color: #FF8C00;
+}
+
+.cor-terciaria{
+   background: #a3a3a281;
+}
+
+.btn{
+   width: auto;
+   height: auto;
+   padding: 10px 15px;
+   border: 1px solid;
+   border-radius: 5px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.btn-primario{
+   background: #FF8C00;
+   color: #000;
+   border: none;
+   transition: 0.3s;
+}
+
+.btn-primario:hover{
+   background: #ff8c00bd;    
+}
+
+.btn-secundario{
+   background: #000;
+   color: #FF8C00;
+   border: none;
+}
+
+.btn-secundario:hover{
+   background: rgba(0, 0, 0, 0.87);
+}
+
+@media screen and (min-width: 375px){
+   .container{
+      width: 90%;
+   }
+}

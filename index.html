@@ -3,6 +3,8 @@
 <head>
    <meta charset="UTF-8">   
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <script src="https://kit.fontawesome.com/fb01dfa943.js" crossorigin="anonymous"></script>
    
    <link href="./css/normalize.css" rel="stylesheet" />
    <link href="./css/reset.css" rel="stylesheet" />
@@ -17,8 +19,12 @@
    <!--Skills e Formacao-->   
    <link rel="stylesheet" href="./css/skills.css">
    <link rel="stylesheet" href="./css/formacao.css">
+
+   <link rel="stylesheet" href="./css/experiencia.css">
    <!--Rodape-->   
    <link rel="stylesheet" href="./css/rodape.css">
+   <!--Contato-->
+   <link rel="stylesheet" href="./css/contato.css">
 
    <!--Fontes do Googles-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +36,7 @@
 <body>
 
    <!--CABEÇALHO DO SITE-->
-   <header class="container">      
+   <header class="menu">      
       <div class="cabecalho">
          <h1 class="logo"><a href="index.html">Rogerio Alves</a></h1>
          <ul class="nav">
@@ -38,7 +44,7 @@
             <li class="nav-item"><a class="nav-link" href="#skills">skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#hobbies">hobbies</a></li>
             <li class="nav-item"><a class="nav-link" href="#formacao">formação</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiencia">projetos</a></li>
             <li class="nav-item"><a class="nav-link email-link" href="mailto: sigmamix10@gmail.com"><strong>sigmamix10@gmail.com</strong></a></li>
          </ul>                           
       </div>         
@@ -59,43 +65,49 @@
          </nav>    
       </div>
       <div class="heros-lado-direito">
-         <img class="heros-img" src="./imagens/DSCN7802.JPG">
+         <img class="heros-img" src="./imagens/IMG_20220110_111332~2.jpg">
       </div>                   
       </div>
    </div>   
 
    <!--CONTEUDO DO SITE-->
    <main>
-      <div class="bg-azul">
+      <!--Heros-->
+      <section class="cor-primaria" id="sobre">
          <div class="container caixa-sbore">
             <h2 class="titulo-sobre">Sobre mim</h2>
             <p class="sobre-texto">Meu nome é Rogério Alves. Tenho 32 anos e sou brasileiro. Nasci em uma cidade chamada Codó, no interior do Maranhão. Morei uma parte da minha infância em Imperatriz, também no Maranhão. Aos 21 anos fui morar, a trabalho, em Jacobina, uma cidade do interior da Bahia localizada na Chapada Diamantina.</p>
             <p class="sobre-texto">Na área profissional comecei aos 19 anos. Estagei por 10 meses em uma empresa de capacitação profissional. Na mesma empresa, logo depois, assumi o cargo de instrutor de cursos livres. Em 2011 fui transferido para a Bahia para exercer o mesmo cargo. Além de instrutor, também exerci outras funções como: Designer Gráfico, Assistente de Logística, Desenvolvedor Web, entre outros.</p>
          </div>
-      </div>
-      <div class="container caixa-skills">
-         <h2 class="center">Skills</h2>
-         <ul class="lista-skills">
-            <li class="lista-skills-itens"><i class="fab fa-html5" style="font-size: 24px; color: #2A7AE4;"></i> HTML 5</li>
-            <li class="lista-skills-itens"><i class="fab fa-js-square" style="font-size: 24px; color: #2A7AE4;"></i> JavaScript</li>
-            <li class="lista-skills-itens"><i class="fab fa-php" style="font-size: 24px; color: #2A7AE4;"></i> PHP</li>
-            <li class="lista-skills-itens"><i class="fab fa-node" style="font-size: 24px; color: #2A7AE4;"></i> Node JS</li>
-            <li class="lista-skills-itens"><i class="fab fa-react" style="font-size: 24px; color: #2A7AE4;"></i> React</li>
-            <li class="lista-skills-itens"><i class="fas fa-file-code" style="font-size: 24px; color: #2A7AE4;"></i> CSS</li>
-         </ul>
-      </div>      
-      <div class="container caixa-skills">
-         <h2 class="center">Hobbies</h2>
-         <ul class="lista-skills">
-            <li class="lista-skills-itens"><i class="fas fa-users" style="font-size: 24px; color: #2A7AE4;"></i> Curtir a familia</li>
-            <li class="lista-skills-itens"><i class="fas fa-tv" style="font-size: 24px; color: #2A7AE4;"></i> Assistir TV</li>
-            <li class="lista-skills-itens"><i class="fas fa-school" style="font-size: 24px; color: #2A7AE4;"></i> Aprender coisas novas</li>
-            <li class="lista-skills-itens"><i class="fas fa-headphones" style="font-size: 24px; color: #2A7AE4;"></i> Ouvir música</li>
-            <li class="lista-skills-itens"><i class="fas fa-gamepad" style="font-size: 24px; color: #2A7AE4;"></i> Jogar Videogame</li>
-            <li class="lista-skills-itens"><i class="fas fa-plane" style="font-size: 24px; color: #2A7AE4;"></i> Viajar</li>
-         </ul>
-      </div>  
-      <div class="bg-azul">
+      </section>
+      <!--Skills e Hobbies-->
+      <section class="cor-terciaria" id="skills">
+         <div class="container caixa-skills">
+            <h2 class="center">Skills</h2>
+            <ul class="lista-skills">
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/html5-brands.svg"> HTML</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/css3-alt-brands.svg"> CSS</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/bootstrap-brands.svg"> Bootstrap</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/js-square-brands.svg"> Java Script</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/Photoshop.svg"> Photoshop</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/coreldraw.svg"> CorelDraw</li>
+            </ul>
+         </div>      
+         <div class="container caixa-skills" id="hobbies">
+            <h2 class="center">Hobbies</h2>
+            <ul class="lista-skills">
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/familia.svg"> Curtir a familia</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/tv.svg"> Assistir</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/livro.svg"> Aprender</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/musica.svg"> Ouvir música</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/game.svg"> Jogar</li>
+               <li class="lista-skills-itens"><img class="icons-skills" src="./icons/viagem.svg"> Viajar</li>
+            </ul>
+         </div>
+      </section>
+
+      <!--Formação-->
+      <section class="cor-primaria" id="formacao">
          <div class="container caixa-formacao">
             <h2 class="center">Formação acadêmica</h2>
             <div class="card-group-formacao">
@@ -123,7 +135,7 @@
                   </div>
                   <div class="card-formacao-descricao">
                      <h4 class="card-formacao-titulo">Front-end - ONE</h4>
-                     <p>Em andamento - Alura</p>
+                     <p>2022 - Alura</p>
                   </div>
                </div>
 
@@ -153,24 +165,78 @@
                      <h4 class="card-formacao-titulo">Inglês Intermediário</h4>
                      <p>2021 - Workover Academy</p>
                   </div>
-               </div>
+               </div>  
             </div>             
          </div>
-      </div> 
-
+      </section>
       <!--Experiencias-->
-      <div class="container">
-         <h2>Experiências</h2>
+      <section class="container caixa-experiencia" id="experiencia">
+         <h2 class="center">Experiência Profissional</h2>
+         <div class="experiencia">
+            <div class="experiencia-01">
+               <div class="experiencia-01-direita">
+                  <img class="experiencia-img" src="./imagens/codigo.JPG">
+               </div>
+               <div class="experiencia-01-esquerda">                  
+                  <h2>Decodificador de Texto</h2>                  
+                  <p>Challange Alura Codificador</p>
+                  <span>
+                     <a target="_blank" class="btn btn-secundario" href="https://github.com/sigmamix10/challenge_01_decodificador">Repositório</a>
+                     <a target="_blank" class="btn btn-primario" href="https://sigmamix10.github.io/challenge_01_decodificador/">Ver Demo</a>
+                  </span>
+            </div>            
+         </div>
+         <hr class="linha">
+         <div class="experiencia-01">
+            <div class="experiencia-01-esquerda">
+               <h2>Jogo criado com HTML, CSS e JavaScript</h2>                  
+               <p>Challenge Oracle</p>
+               <span>
+                  <a target="_blank" class="btn btn-secundario" href="https://github.com/sigmamix10/challenge_jogo_forca">Repositório</a>
+                  <a target="_blank" class="btn btn-primario" href="https://sigmamix10.github.io/challenge_jogo_forca/">Ver Demo</a>
+               </span>
+            </div>
+            <div class="experiencia-01-direita">
+               <img class="experiencia-img" src="./imagens/forca.JPG">    
+         </div>            
       </div>
+      </div>
+      </section>
+      <!--Contato-->
+      <section class="cor-primaria">
+         <div class="container contato">
+            <div class="contato-img">
+               <img class="contato-img-phone" src="./imagens/contato.jpg">
+            </div>
+            <div class="formulario">
+               <h2>Contato</h2>
+               <p>Quer entrar em contato comigo?</p>
+               <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+               <form class="form" action="" method="post">
+                  <input class="campo-nome" type="text" name="nome" id="nome" placeholder="Nome" required>
+                  <input class="campo-email" type="email" name="email" id="email" placeholder="Email" required>
+                  <input class="campo-assunto" type="text" name="assunto" id="assunto" placeholder="Assunto" required>
+                  <textarea class="campo-mensagem" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                  <input class="btn btn-secundario t-p-01" type="submit" value="Enviar" onclick="validarDados()">
+               </form>
+            </div>
+         </div>
+      </section>
    </main>
 
    <!--RODAPE DO SITE-->
    <footer class="rodape">
-      <p>Desenvolvido por Rogério Alves</p>
-      <p>2022</p>
+      <p>&copy; 2022 | Desenvolvido por Rogério Alves</p>      
+      <div class="icons">
+         <a href="https://www.facebook.com/sigmamix" target="_blank"><img src="./icons/facebook.svg" alt="Logo Facebook" width="30px"></a>
+         <a href="https://www.instagram.com/sigmamix10/" target="_blank"><img src="./icons/instagram.svg" alt="Logo Instagram" width="30px"></a>
+         <a href="https://twitter.com/rogerio_alvez89" target="_blank"><img src="./icons/twitter.svg" alt="Logo Twitter" width="30px"></a>
+         <a href="https://www.linkedin.com/in/rogerioalvez/" target="_blank"><img src="./icons/linkedin.svg" alt="Logo Linkedin" width="30px"></a>
+         <a href="https://github.com/sigmamix10" target="_blank"><img src="./icons/github.svg" alt="Logo Github" width="30px"></a>
+      </div>
    </footer>
 
-   <!--FONT AWESOME-->
-   <script src="https://kit.fontawesome.com/fb01dfa943.js" crossorigin="anonymous"></script>
+   <script src="./js/validador.js"></script>
+   
 </body>
 </html>
