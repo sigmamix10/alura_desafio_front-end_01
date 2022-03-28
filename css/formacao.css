@@ -1,5 +1,5 @@
-.caixa-formacao{
-   padding: 2rem 0 2rem 0;
+.caixa-formacao{  
+   padding: 4rem 0;
 }
 
 .card-group-formacao{
@@ -12,7 +12,15 @@
 
 .card-formacao{
    width: 18.75rem;     
-   padding: 1.125rem;   
+   padding: 0.75rem; 
+   transition: 0.5s;
+   margin-bottom: 10px;
+   border-radius: 10px 10px 0 0;  
+}
+
+.card-formacao:hover{
+   background: #000;
+   border-radius: 10px 10px 0 0;
 }
 
 .card-formacao-img{    
@@ -21,7 +29,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   border-radius: 10px 10px 0;   
+   border-radius: 10px 10px 0 0;   
 }
 
 .img-formacao{
@@ -35,10 +43,60 @@
 }
 
 .card-formacao-descricao{
-   border-bottom: 2px solid #c2c2c2;
+   border-bottom: 2px solid #fff;
+   background: #000;
+   color: #FF8C00;
+   padding: 5px;
 }
 
 .linha{
    border: 1px solid;
    width: 70%;
 }
+
+/*Modal*/
+
+.modal {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   background: rgba(0,0,0,0.8);
+   z-index: 99999;
+   opacity:0;
+   -webkit-transition: opacity 400ms ease-in;
+   -moz-transition: opacity 400ms ease-in;
+   transition: opacity 400ms ease-in;
+   pointer-events: none;
+ }
+
+ .modal:target {
+   opacity: 1;
+   pointer-events: auto;
+ }
+
+ .modal > div {
+   width: 90vw;
+   height: 90vh;
+   position: relative;
+   margin: 2% auto;
+   padding: 15px 20px;
+   background: #FF8C00;
+ }
+
+ .fechar {
+   position: absolute;
+   width: 30px;
+   right: -15px;
+   top: -20px;
+   text-align: center;
+   line-height: 30px;
+   margin-top: 5px;
+   background: #000;
+   border-radius: 50%;
+   font-size: 16px;
+   color: #FF8C00;
+   text-decoration: none;
+ }
