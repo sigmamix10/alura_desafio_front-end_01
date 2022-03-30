@@ -79,7 +79,7 @@
 
  .modal > div {
    width: 90vw;
-   height: 90vh;
+   height: auto;
    position: relative;
    margin: 2% auto;
    padding: 15px 20px;
@@ -99,4 +99,79 @@
    font-size: 16px;
    color: #FF8C00;
    text-decoration: none;
+ }
+
+
+ @media screen and (max-width: 767px){
+   .caixa-formacao{  
+      padding: 1rem 0;
+   }
+
+   .card-group-formacao{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 2rem 0 2rem 0;
+   }
+
+   .card-formacao{
+      width: 80vw;
+      height: auto;     
+      padding: 0.75rem; 
+      transition: 0.5s;
+      margin-bottom: 0 auto 10px auto;
+      border-radius: 10px 10px 0 0;  
+   }
+
+   .card-formacao-img{    
+      background: #fff;   
+      height: auto;   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+      padding: 15px 0; 
+   }
+
+   .img-formacao{
+      width: 35%;
+   }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1023px){
+   .card-group-formacao{
+      display: flex;
+      justify-content: center;      
+      align-items: center;
+      margin: 1.75rem 0;
+   }
+
+   .card-formacao{
+      width: 200px;
+      height: auto;     
+      padding: 0.75rem 0; 
+      transition: 0.5s;
+      margin: 10px;
+      border-radius: 10px 10px 0 0;  
+   }
+
+   .card-formacao-img{    
+      background: #fff;   
+      height: 100px;   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+      padding: 15px 0;       
+   }
+
+   .img-formacao{
+      width: 150px;
+   }
+
+   .card-formacao-titulo{
+      height: 40px;
+   }
+
  }

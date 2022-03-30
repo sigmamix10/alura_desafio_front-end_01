@@ -51,7 +51,24 @@
    text-transform: none;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 767px){
+   .cabecalho{
+      display: flex;      
+      justify-content: space-between;
+      padding: 5px 0;
+      width: 90vw;
+   }
+
+   .nav-link{
+      display: none;
+   }
+
+   .email-link{
+      display: block;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
    .cabecalho{
       display: flex;      
       justify-content: space-between;

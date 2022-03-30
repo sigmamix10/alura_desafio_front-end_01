@@ -44,7 +44,7 @@
    margin-right: 0;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 767px){
    .heros{
       display: flex;
       flex-direction: column-reverse;
@@ -58,15 +58,44 @@
    }
 
    .texto-heros{
-      font-size: 14px;
+      font-size: 18px;
       text-align: justify;
       padding: 5px 0;
    }
 
    .redes-nav{
-      padding: 5px 5px;
-      width: 100%;
+      padding: 5px 5px;      
       font-size: 14px;
    }
+
+   .redes-nav-item{
+      margin-right: 10px;
+   }
    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){  
+   
+   .titulo-heros{
+      font-size: 24px;
+      align-self: stretch;
+   }
+
+   .texto-heros{
+      font-size: 20px;
+      text-align: justify;
+      padding: 5px 0;
+   }
+
+   .redes-nav{
+      display: flex;
+      justify-content: space-around;
+      padding: 5px 5px;      
+      font-size: 12px;
+   } 
+   
+   .redes-nav-link{
+      margin: 0 10px;
+      width: 100%;
+   }
 }

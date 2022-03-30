@@ -15,7 +15,7 @@
    line-height: 25px
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 1023px){
    .caixa-sbore{
       padding: 15px 0;
    }

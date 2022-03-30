@@ -36,3 +36,26 @@
 .t-p-01{
    width: 15%;
 }
+
+@media screen and (max-width: 1023px){
+   .contato{
+      display: flex;
+      padding: 20px;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .contato-img{
+      display: none;
+   }
+
+   .campo-nome, .campo-email, .campo-assunto, .campo-mensagem{
+      width: 80%;
+      margin-bottom: 10px;
+      padding: 10px 5px;
+      border: none;
+      border-radius: 5px;
+      color: #000;
+   }
+   
+}
